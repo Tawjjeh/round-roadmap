@@ -2,7 +2,7 @@
 
 ## Overview
 
-An 8-sprint (4-month) intensive program designed to transform contributors into effective open source maintainers.
+An 8-sprint (4-month) intensive program designed to transform developers into highly effective, independent, and confident open-source contributors, while providing the foundation for those with leadership potential to eventually evolve into maintainers.
 
 ---
 
