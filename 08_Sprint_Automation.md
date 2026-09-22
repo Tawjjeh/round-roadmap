@@ -1,14 +1,14 @@
-# Sprint 8: CI/CD Automation & Maintainership
+# Sprint 8: Basic CI and Pull Request Checks
 
 ---
 
-## Technical Topic: CI/CD Automations with GitHub Actions
+## Technical Topic: Basic CI with GitHub Actions
 
 ### Learning Objectives
 
-- Build comprehensive CI/CD pipelines for OSS projects
-- Automate testing, building, and deployment workflows
-- Implement quality gates and automated checks
+- Create a workflow that runs on pull requests
+- Restore dependencies, build the project, and run tests
+- Read the result of a failed workflow
 
 ### Key Concepts
 
@@ -16,34 +16,31 @@
 |---------|-------------|
 | **Workflow Syntax** | YAML-based configuration for automated processes |
 | **Job Configuration** | Defining what runs, when, and on which platform |
-| **Matrix Builds** | Running jobs across multiple platform/technology combinations |
-| **Secrets Management** | Securely handling sensitive information in workflows |
-| **Artifacts** | Files produced by builds that can be downloaded or deployed |
-| **Release Automation** | Automatically publishing releases based on tags or events |
+| **Trigger** | The event that starts a workflow |
+| **Job** | A group of steps that runs on a virtual machine |
+| **Artifact** | A file produced by a workflow |
 
-> **Tip**: Start with simple workflows and add complexity as needed. Every automated check is a burden lifted from maintainers.
+> **Practice**: Add one workflow that builds the project and runs its tests.
 
 ---
 
-## Knowledge Topic: Maintainership and Merging PRs
+## Knowledge Topic: Releases and Pull Request Checks
 
 ### Learning Objectives
 
-- Develop criteria for accepting and merging contributions
-- Manage contributor relationships long-term
-- Handle difficult PRs and community conflicts
+- Check that required tests pass before merging
+- Understand squash merge and merge commit
+- Prepare a small release from a tagged version
 
 ### Key Concepts
 
 | Concept | Description |
 |---------|-------------|
-| **PR Evaluation Checklist** | A systematic approach to reviewing contributions |
-| **Communicating Decisions** | Explaining why a PR was accepted or rejected |
 | **Squash Merge** | Combining all commits into one for a clean history |
 | **Merge Commit** | Preserving all commits from the feature branch |
-| **Sunset Projects** | Gracefully ending a project's life cycle |
+| **Tag** | A named point in the repository history, often used for releases |
 
-> **Note**: Good maintainers make contributors feel valued, even when declining their work.
+> **Practice**: Create a checklist for a pull request: build, tests, formatting, and documentation.
 
 ---
 

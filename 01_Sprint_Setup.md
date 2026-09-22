@@ -2,47 +2,46 @@
 
 ---
 
-## Technical Topic: Git Branches & Pointers Under the Hood
+## Technical Topic: Git Branches and Repository Basics
 
 ### Learning Objectives
 
-- Understand how Git truly works under the hood (objects, refs, pointers)
-- Master branch management strategies for open source contributions
-- Learn effective workflows for working with remote repositories
+- Understand commits, branches, and remotes
+- Create a branch for a small change
+- Clone a repository and keep it up to date
 
 ### Key Concepts
 
 | Concept | Description |
 |---------|-------------|
-| **Git Objects** | Blobs, trees, and commits form the internal structure of Git's object database |
-| **HEAD** | A pointer to the current branch or commit in your repository |
+| **Commit** | A saved change in the repository history |
+| **HEAD** | The commit or branch currently checked out |
 | **Branches** | Lightweight movable pointers to commits |
 | **Remote Tracking** | References to branches on remote repositories |
-| **Merge vs Rebase** | Two strategies for integrating changes from one branch into another |
-| **Detached HEAD** | A state where HEAD points directly to a commit rather than a branch |
+| **Merge** | Combining changes from two branches |
+| **Remote** | A copy of the repository hosted elsewhere |
 
-> **Tip**: Understanding these internals helps you recover from tricky situations and makes advanced Git operations intuitive.
+> **Practice**: Clone a small project, create a branch, change one file, and open a local pull request.
 
 ---
 
-## Knowledge Topic: Open Source Culture & CONTRIBUTING.md Etiquette
+## Knowledge Topic: Reading CONTRIBUTING.md and Choosing a Task
 
 ### Learning Objectives
 
-- Understand the values and norms of open source communities
-- Learn to read and follow CONTRIBUTING.md guidelines
-- Make effective contributions that get accepted
+- Find the files that explain how a project works
+- Follow the repository's contribution steps
+- Choose a small task that matches your current level
 
 ### Key Concepts
 
 | Concept | Description |
 |---------|-------------|
-| **Open Source Ethos** | Collaborative development, transparency, and community-driven progress |
 | **CONTRIBUTING.md** | A file that outlines how to contribute to a project |
-| **Fork & Branch Workflow** | The standard process for contributing to external repositories |
-| **Code of Conduct** | Guidelines that govern community interaction and participation |
+| **Repository Layout** | The main folders, source files, tests, and documentation |
+| **Fork & Branch Workflow** | A common process for contributing to an external repository |
 
-> **Important**: Before contributing to any project, always read the CONTRIBUTING.md file. It contains the "rules of the road" for that community.
+> **Practice**: Before changing code, read the README, CONTRIBUTING.md, and the relevant issue.
 
 ---
 

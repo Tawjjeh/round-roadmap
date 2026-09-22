@@ -1,14 +1,14 @@
-# Sprint 3: Validation & Open Source Licenses
+# Sprint 3: Validation, Configuration, and Licenses
 
 ---
 
-## Technical Topic: Validation in Open Source Using FluentValidation
+## Technical Topic: Input Validation and Configuration
 
 ### Learning Objectives
 
-- Implement robust validation patterns in library code
-- Create validators that are extensible and testable
-- Learn FluentValidation best practices for OSS projects
+- Validate required and optional input
+- Keep configuration outside the code when possible
+- Return clear messages for invalid input
 
 ### Key Concepts
 
@@ -16,20 +16,20 @@
 |---------|-------------|
 | **Rule-Based Validation** | Chain multiple validation rules together for complex scenarios |
 | **Custom Validators** | User-defined validators for domain-specific rules |
-| **Async Validation** | Non-blocking validation for operations like database checks |
-| **ASP.NET Core Integration** | Connecting validators to controllers and models in web applications |
+| **Configuration** | Values such as URLs and feature flags read from settings or environment variables |
+| **Fail Fast** | Rejecting invalid input before starting the main operation |
 
-> **Note**: In open source libraries, validation should be fail-fast and provide clear, actionable error messages to consumers.
+> **Practice**: Add validation for one request or command and test both valid and invalid input.
 
 ---
 
-## Knowledge Topic: Open Source Licenses: MIT, GPL, Apache
+## Knowledge Topic: Open Source Licenses
 
 ### Learning Objectives
 
-- Understand the implications of different open source licenses
-- Learn how to properly license your own projects
-- Navigate license compliance in OSS contributions
+- Identify the license used by a repository
+- Know the basic difference between permissive and copyleft licenses
+- Check license requirements before adding a dependency
 
 ### Key Concepts
 
@@ -41,11 +41,10 @@
 
 | Concept | Description |
 |---------|-------------|
-| **License Compatibility** | Understanding which licenses can be combined in a project |
-| **License Stacking** | Using multiple libraries with different licenses in one project |
-| **Adding a License** | Steps to properly apply a license to your project |
+| **Dependency License** | The license attached to a library used by the project |
+| **Attribution** | Keeping the notices required by some licenses |
 
-> **Warning**: Always understand a project's license before contributing. Your contributions may inherit the project's license.
+> **Practice**: Find the repository license and check the license of one dependency.
 
 ---
 

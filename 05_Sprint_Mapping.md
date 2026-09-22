@@ -1,49 +1,44 @@
-# Sprint 5: Object Mapping & Documentation
+# Sprint 5: DTOs, Mapping, JSON, and Documentation
 
 ---
 
-## Technical Topic: Object Mapping with AutoMapper
+## Technical Topic: DTOs, Mapping, and JSON
 
 ### Learning Objectives
 
-- Implement efficient object-to-object mapping patterns
-- Configure type maps and custom resolvers
-- Handle complex mapping scenarios in OSS libraries
+- Understand why APIs use DTOs
+- Map between a domain object and a response object
+- Read and write simple JSON
 
 ### Key Concepts
 
 | Concept | Description |
 |---------|-------------|
-| **Profile-Based Configuration** | Grouping related mappings in profile classes |
-| **Custom Value Resolvers** | Custom logic for transforming values during mapping |
-| **Type Converters** | Full control over how one type converts to another |
-| **Null Handling** | Configuring behavior when source values are null |
-| **Conditional Mapping** | Applying maps only when certain conditions are met |
-| **Performance** | Understanding the overhead of mapping in high-throughput scenarios |
+| **DTO** | A type used to transfer only the data needed by a caller |
+| **Mapping** | Copying or transforming data between two types |
+| **JSON** | A common text format for API data |
 
-> **Tip**: Keep your mapping profiles organized and documented. Complex mapping logic can become a maintenance burden if not properly structured.
+> **Practice**: Add one DTO and test its JSON output.
 
 ---
 
-## Knowledge Topic: Writing Selling Documentation and READMEs
+## Knowledge Topic: README and Basic Documentation
 
 ### Learning Objectives
 
-- Create compelling documentation that attracts users
-- Structure READMEs for maximum impact
-- Document features, installation, and usage effectively
+- Explain what the project does
+- Document setup and one common usage
+- Keep documentation aligned with the code
 
 ### Key Concepts
 
 | Concept | Description |
 |---------|-------------|
 | **README Structure** | Essential sections: Overview, Installation, Usage, Contributing |
-| **Badges** | Visual indicators of build status, version, and licensing |
-| **Demos** | Examples or screenshots that show the project in action |
 | **Contributing Guidelines** | Clear instructions for how others can help |
 | **Documentation Updates** | Keeping docs in sync with code changes |
 
-> **Note**: Your README is often the first thing visitors see. Make it clear, welcoming, and informative.
+> **Practice**: Update one README section after making a code change.
 
 ---
 

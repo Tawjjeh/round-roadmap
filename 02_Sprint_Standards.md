@@ -20,17 +20,17 @@
 | **SonarLint** | An IDE extension that provides real-time code quality feedback |
 | **Warning Suppression** | Appropriately silencing warnings that do not apply to specific cases |
 
-> **Tip**: Set up EditorConfig and Roslyn analyzers early in a project. They prevent style discussions in code reviews and catch potential bugs before they reach production.
+> **Practice**: Add an EditorConfig file, enable one analyzer, and fix the warnings it reports.
 
 ---
 
-## Knowledge Topic: Triage and Choosing the Right Issue
+## Knowledge Topic: Issues, Labels, and Task Scope
 
 ### Learning Objectives
 
-- Learn to evaluate issues for complexity and suitability
-- Develop skills to ask clarifying questions
-- Understand issue priority and timing considerations
+- Find issues that are suitable for a first contribution
+- Read labels and existing discussion
+- Split a large task into a small change
 
 ### Key Concepts
 
@@ -38,10 +38,10 @@
 |---------|-------------|
 | **Good First Issue** | A label indicating an issue suitable for newcomers |
 | **Help Wanted** | A label indicating the maintainers want assistance |
-| **Complexity Assessment** | Evaluating an issue's difficulty before committing |
-| **Time Estimation** | Realistic assessment of how long a contribution will take |
+| **Task Scope** | The exact part of the problem that a change should address |
+| **Acceptance Criteria** | The conditions that show the issue is complete |
 
-> **Tip**: Start with smaller issues labeled "good first issue" to build confidence and reputation before tackling larger features.
+> **Practice**: Pick one issue, write down the files it may affect, and ask a focused question before coding.
 
 ---
 

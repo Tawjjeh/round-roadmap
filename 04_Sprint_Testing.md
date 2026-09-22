@@ -21,28 +21,26 @@
 | **Assertions** | Statements that verify expected vs. actual results |
 | **Mocking** | Creating fake objects to isolate the code under test |
 
-> **Tip**: Write tests that are fast, isolated, and repeatable. Avoid tests that depend on external resources like databases or network calls.
+> **Practice**: Write one test with fixed input and expected output. Keep the test independent of a database or network.
 
 ---
 
-## Knowledge Topic: Code Review Culture and Accepting Feedback
+## Knowledge Topic: Pull Requests and Code Review
 
 ### Learning Objectives
 
-- Develop a healthy attitude toward code reviews
-- Learn to give constructive feedback
-- Navigate the back-and-forth of review discussions
+- Write a pull request with a clear summary
+- Connect the change to an issue
+- Respond to review comments with useful updates
 
 ### Key Concepts
 
 | Concept | Description |
 |---------|-------------|
-| **Blending Ego with Code** | Separating your self-worth from your code |
 | **Actionable Comments** | Review feedback that suggests specific improvements |
-| **Professional Responses** | Handling critique without defensiveness |
-| **Push Back vs. Concede** | Knowing when to defend your approach and when to accept changes |
+| **Change Scope** | Keeping a pull request focused on one task |
 
-> **Important**: Code reviews are about improving the code, not winning an argument. Both reviewer and author should approach them with humility.
+> **Practice**: Open a small pull request that includes the change, its test, and a short description.
 
 ---
 

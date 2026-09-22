@@ -1,45 +1,30 @@
-# Tawjjeh Educational Roadmap
+# Open Source Contributor Roadmap
 
-An 8-sprint (4-month) intensive program designed to transform developers into highly effective, independent, and confident open-source contributors, while providing the foundation for those with leadership potential to eventually evolve into maintainers. This roadmap is part of the **Level 3 Open Source Training Program**.
+An 8-sprint roadmap for developers who want to start contributing to open source. It focuses on small, practical steps that can be used in real repositories.
 
 ## About This Roadmap
 
-This roadmap guides participants through the essential skills and knowledge required to succeed in open source development. Each sprint combines technical mastery with interpersonal knowledge, creating well-rounded contributors who can both write quality code and navigate community dynamics.
+Each sprint combines one technical topic with one repository workflow topic. The topics can be studied in order or used separately.
 
 ## Program Structure
 
 | Month | Sprint | Technical Focus | Knowledge Focus |
 |-------|--------|-----------------|-----------------|
-| **1** | Sprint 1 | Git Branches & Pointers Under the Hood | Open Source Culture & CONTRIBUTING.md Etiquette |
-| **1** | Sprint 2 | Code Formatting, EditorConfig, Roslyn Analyzers | Triage and Choosing the Right Issue |
-| **2** | Sprint 3 | Validation with FluentValidation | Open Source Licenses (MIT, GPL, Apache) |
-| **2** | Sprint 4 | Unit Testing Basics with xUnit | Code Review Culture and Accepting Feedback |
-| **3** | Sprint 5 | Object Mapping with AutoMapper | Writing Selling Documentation and READMEs |
-| **3** | Sprint 6 | Global Error Handling & Middlewares | Building a Personal Brand in the OS Community |
-| **4** | Sprint 7 | EF Core Migrations in Teams | Dealing with Burnout in Open Source |
-| **4** | Sprint 8 | CI/CD Automation with GitHub Actions | Maintainership and Merging PRs |
+| **1** | Sprint 1 | Git Branches and Repository Basics | Reading CONTRIBUTING.md and Choosing a Task |
+| **1** | Sprint 2 | Formatting and Static Analysis | Issues, Labels, and Task Scope |
+| **2** | Sprint 3 | Input Validation and Configuration | Open Source Licenses |
+| **2** | Sprint 4 | Unit Testing with xUnit | Pull Requests and Code Review |
+| **3** | Sprint 5 | DTOs, Mapping, and JSON | README and Basic Documentation |
+| **3** | Sprint 6 | Error Handling and Logging | Issue Templates and Bug Reports |
+| **4** | Sprint 7 | EF Core Migrations and Seed Data | Changelogs and Versioning |
+| **4** | Sprint 8 | Basic CI with GitHub Actions | Releases and Pull Request Checks |
 
-## How to Contribute
+## Editing the Roadmap
 
-We welcome contributions from educators, developers, and community members who want to improve this roadmap.
-
-### Suggesting Changes or New Topics
-
-If you have ideas for improving the roadmap or want to suggest new topics:
-
-1. **Open an Issue**: Visit our [GitHub Issues](https://github.com/Tawjjeh/round-roadmap/issues) and create a new issue with your suggestion. Please use a clear title and provide as much context as possible.
-2. **Submit a Pull Request**: If you want to directly contribute content:
-   - Fork the repository
-   - Create a new branch for your changes
-   - Make your edits
-   - Submit a PR with a description of what you changed and why
-
-### Contribution Guidelines
-
-- Keep content accessible and beginner-friendly
-- Avoid emojis or heavy icons in content; use clean Markdown formatting
-- Include practical examples where possible
-- Update the ROADMAP_MANIFEST.md if you add new topics
+- Keep the content simple and suitable for newcomers
+- Use clean Markdown and practical examples
+- Keep each sprint focused on one main technical topic
+- Update the overview when adding or renaming a sprint
 
 ## Repository Structure
 
@@ -47,7 +32,6 @@ If you have ideas for improving the roadmap or want to suggest new topics:
 round-roadmap/
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
-├── ROADMAP_MANIFEST.md      # Detailed curriculum manifest
 ├── 00_OVERVIEW.md           # Program overview
 ├── 01_Sprint_Setup.md       # Sprint 1 content
 ├── 02_Sprint_Standards.md   # Sprint 2 content

@@ -1,8 +1,8 @@
-# Level 3 Open Source Training Program
+# Open Source Contributor Roadmap
 
 ## Overview
 
-An 8-sprint (4-month) intensive program designed to transform developers into highly effective, independent, and confident open-source contributors, while providing the foundation for those with leadership potential to eventually evolve into maintainers.
+An 8-sprint roadmap for developers who want to start contributing to open source. It covers Git, code quality, testing, documentation, and basic automation.
 
 ---
 
@@ -10,27 +10,27 @@ An 8-sprint (4-month) intensive program designed to transform developers into hi
 
 | Month | Sprint | Technical Focus | Knowledge Focus |
 |-------|--------|-----------------|-----------------|
-| **1** | Sprint 1 | Git Branches & Pointers Under the Hood | Open Source Culture & CONTRIBUTING.md Etiquette |
-| **1** | Sprint 2 | Code Formatting, EditorConfig, Roslyn Analyzers | Triage and Choosing the Right Issue |
-| **2** | Sprint 3 | Validation with FluentValidation | Open Source Licenses (MIT, GPL, Apache) |
-| **2** | Sprint 4 | Unit Testing Basics with xUnit | Code Review Culture and Accepting Feedback |
-| **3** | Sprint 5 | Object Mapping with AutoMapper | Writing Selling Documentation and READMEs |
-| **3** | Sprint 6 | Global Error Handling & Middlewares | Building a Personal Brand in the OS Community |
-| **4** | Sprint 7 | EF Core Migrations in Teams | Dealing with Burnout in Open Source |
-| **4** | Sprint 8 | CI/CD Automation with GitHub Actions | Maintainership and Merging PRs |
+| **1** | Sprint 1 | Git Branches and Repository Basics | Reading CONTRIBUTING.md and Choosing a Task |
+| **1** | Sprint 2 | Formatting and Static Analysis | Issues, Labels, and Task Scope |
+| **2** | Sprint 3 | Input Validation and Configuration | Open Source Licenses |
+| **2** | Sprint 4 | Unit Testing with xUnit | Pull Requests and Code Review |
+| **3** | Sprint 5 | DTOs, Mapping, and JSON | README and Basic Documentation |
+| **3** | Sprint 6 | Error Handling and Logging | Issue Templates and Bug Reports |
+| **4** | Sprint 7 | EF Core Migrations and Seed Data | Changelogs and Versioning |
+| **4** | Sprint 8 | Basic CI with GitHub Actions | Releases and Pull Request Checks |
 
 ---
 
 ## Learning Path Summary
 
 ### Month 1: Setup & Standards
-Build the foundational skills needed for effective open source contribution, from understanding Git internals to navigating community guidelines.
+Learn the Git and repository basics needed to make a first contribution.
 
 ### Month 2: Quality & Validation
-Learn to maintain high code quality standards through validation libraries and understand the legal framework of open source licensing.
+Add validation, configuration, and testing to small changes.
 
 ### Month 3: Data & Errors
-Master object mapping patterns and learn to communicate effectively through documentation while building your professional presence.
+Work with common data formats, error handling, logging, and project documentation.
 
 ### Month 4: Database & Automation
-Handle collaborative database development and automate your workflows to become a confident maintainer.
+Practice database changes, release notes, and a simple automated check.

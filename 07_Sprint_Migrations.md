@@ -1,4 +1,4 @@
-# Sprint 7: EF Core Migrations & Burnout Management
+# Sprint 7: EF Core Migrations, Seed Data, and Versioning
 
 ---
 
@@ -8,6 +8,7 @@
 
 - Coordinate database schema changes across distributed teams
 - Handle migration conflicts and resolution strategies
+- Add small, repeatable seed data for local development
 - Implement migration best practices for OSS libraries
 
 ### Key Concepts
@@ -19,29 +20,29 @@
 | **Idempotent Migrations** | Migrations that can run safely multiple times |
 | **Lean Migrations** | Keeping migrations small and focused |
 | **Reversible Changes** | Writing migrations that can be rolled back if needed |
+| **Seed Data** | Initial data used to run and test the application locally |
 
-> **Warning**: Avoid modifying existing migration files that have been applied in production. Create new migrations instead.
+> **Practice**: Do not edit an applied migration. Create a new migration for the next database change.
 
 ---
 
-## Knowledge Topic: Dealing with Burnout in Open Source
+## Knowledge Topic: Changelogs and Versioning
 
 ### Learning Objectives
 
-- Recognize signs of contributor burnout
-- Establish sustainable open source involvement
-- Set boundaries while maintaining community relationships
+- Record user-visible changes in a changelog
+- Understand major, minor, and patch versions
+- Write a short release note
 
 ### Key Concepts
 
 | Concept | Description |
 |---------|-------------|
-| **Warning Signs** | Early indicators of approaching burnout |
-| **Time Management** | Allocating time wisely across OSS commitments |
-| **Saying No** | Declining requests without guilt or negative feelings |
-| **Community Support** | Leaning on the community during difficult times |
+| **Changelog** | A list of important changes between releases |
+| **Semantic Versioning** | A version format based on breaking changes and features |
+| **Breaking Change** | A change that requires users to update their code |
 
-> **Important**: Open source sustainability requires boundaries. A burned-out maintainer helps no one.
+> **Practice**: Add one entry to a changelog and label it as a fix, feature, or breaking change.
 
 ---
 

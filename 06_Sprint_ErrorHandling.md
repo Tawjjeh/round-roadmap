@@ -1,4 +1,4 @@
-# Sprint 6: Error Handling & Personal Branding
+# Sprint 6: Error Handling, Logging, and Bug Reports
 
 ---
 
@@ -20,28 +20,27 @@
 | **Logging Integration** | Recording errors for debugging while keeping user messages clean |
 | **Graceful Degradation** | Continuing to function partially when errors occur |
 
-> **Tip**: Never expose internal exception details to end users. Log them internally, but show users a clear, safe error message.
+> **Practice**: Log the exception details internally and return a short error message to the caller.
 
 ---
 
-## Knowledge Topic: Building a Personal Brand in the Open Source Community
+## Knowledge Topic: Issue Templates and Bug Reports
 
 ### Learning Objectives
 
-- Establish credibility through meaningful contributions
-- Leverage open source work for career growth
-- Network effectively within communities
+- Write a bug report that can be reproduced
+- Include steps, expected behavior, and actual behavior
+- Add the relevant version and environment details
 
 ### Key Concepts
 
 | Concept | Description |
 |---------|-------------|
-| **Consistent Contributions** | Regular, quality contributions over time |
-| **Blog Posts & Talks** | Sharing knowledge publicly to build authority |
-| **GitHub Profile** | A living portfolio of your work and interests |
-| **OSS Commitments** | Balancing multiple projects without burnout |
+| **Reproduction Steps** | The smallest sequence that shows the problem |
+| **Expected Behavior** | What should happen |
+| **Actual Behavior** | What happened instead |
 
-> **Note**: Your personal brand is built through what you do consistently, not what you say about yourself.
+> **Practice**: Turn a small bug into a report that another developer can reproduce.
 
 ---
 
