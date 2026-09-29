@@ -1,59 +1,64 @@
-# Sprint 1: Setup & Foundations
+# Sprint 1: Setup, Git Basics & First Contributions
+
+**Timeline:** Month 1 · Sprint 1 (Weeks 1–2)
 
 ---
 
-## Technical Topic: Git Branches and Repository Basics
+## 1. Technical Topic: Git Branches & Repository Basics
 
 ### Learning Objectives
-
-- Understand commits, branches, and remotes
-- Create a branch for a small change
-- Clone a repository and keep it up to date
+- Understand commits, branches, HEAD, and remotes.
+- Create and manage feature branches for isolated changes.
+- Clone a repository and keep a local fork synchronized with upstream.
 
 ### Key Concepts
 
 | Concept | Description |
-|---------|-------------|
-| **Commit** | A saved change in the repository history |
-| **HEAD** | The commit or branch currently checked out |
-| **Branches** | Lightweight movable pointers to commits |
-| **Remote Tracking** | References to branches on remote repositories |
-| **Merge** | Combining changes from two branches |
-| **Remote** | A copy of the repository hosted elsewhere |
+| :--- | :--- |
+| **Commit** | A snapshot of staged changes recorded in repository history. |
+| **Branch** | A movable pointer to a commit, enabling parallel development. |
+| **HEAD** | The pointer to the currently checked-out commit or branch. |
+| **Remote** | A version of the repository hosted on a server (`origin` vs `upstream`). |
+| **Merge / Rebase** | Techniques for integrating changes from one branch into another. |
 
-> **Practice**: Clone a small project, create a branch, change one file, and open a local pull request.
+### 📚 Topic Resources & References
+<!-- Add topic learning resources / links here -->
+- [ ] 
+- [ ] 
 
 ---
 
-## Knowledge Topic: Reading CONTRIBUTING.md and Choosing a Task
+## 2. Knowledge Focus: Reading `CONTRIBUTING.md` & Choosing a Task
 
 ### Learning Objectives
-
-- Find the files that explain how a project works
-- Follow the repository's contribution steps
-- Choose a small task that matches your current level
+- Locate and understand a project's setup and contribution guidelines.
+- Learn the standard fork-and-branch open source workflow.
+- Select a beginner-friendly issue aligned with your skill level.
 
 ### Key Concepts
 
 | Concept | Description |
-|---------|-------------|
-| **CONTRIBUTING.md** | A file that outlines how to contribute to a project |
-| **Repository Layout** | The main folders, source files, tests, and documentation |
-| **Fork & Branch Workflow** | A common process for contributing to an external repository |
+| :--- | :--- |
+| **CONTRIBUTING.md** | The guideline file explaining how to build, test, and contribute to the project. |
+| **Repository Layout** | Common folder structure separating source code, tests, and documentation. |
+| **Fork & Pull Workflow** | The process of copying a repository, pushing changes, and submitting a pull request. |
 
-> **Practice**: Before changing code, read the README, CONTRIBUTING.md, and the relevant issue.
+### 📚 Workflow Resources & References
+<!-- Add workflow learning resources / links here -->
+- [ ] 
+- [ ] 
 
 ---
 
-## Preparation Notes & Code Snippets
+## 3. 🧩 Problem Solving Track (3 Problems)
+<!-- Add the 3 problem-solving challenges for this sprint here -->
+- [ ] **Problem 1:** 
+- [ ] **Problem 2:** 
+- [ ] **Problem 3:** 
 
-### Technical Notes:
+---
 
-
-
-### Knowledge Notes:
-
-
-
-### Code Snippets:
-
+## 4. 🛠️ Sprint Deliverable & Practice
+- [ ] Fork an open source repository, clone it locally, and configure the upstream remote.
+- [ ] Create a feature branch, make a small change, and inspect git status and diff.
+- [ ] Solve and submit the 3 problem-solving challenges for this sprint.

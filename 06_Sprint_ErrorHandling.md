@@ -1,58 +1,64 @@
-# Sprint 6: Error Handling, Logging, and Bug Reports
+# Sprint 6: Error Handling, Logging & Bug Reports
+
+**Timeline:** Month 3 · Sprint 6 (Weeks 11–12)
 
 ---
 
-## Technical Topic: Global Error Handling & Middlewares
+## 1. Technical Topic: Global Error Handling & Logging
 
 ### Learning Objectives
-
-- Implement robust exception handling in libraries
-- Design user-friendly error messages for OSS consumers
-- Create middleware pipelines for cross-cutting concerns
+- Implement centralized error handling to avoid unhandled exceptions crashing applications.
+- Standardize error responses using RFC 7807 (Problem Details).
+- Use structured logging with appropriate severity levels for diagnostic clarity.
 
 ### Key Concepts
 
 | Concept | Description |
-|---------|-------------|
-| **Exception Filters** | Attributes that handle exceptions at the controller or action level |
-| **Middleware** | Components that process requests and responses in a pipeline |
-| **Problem Details** | A standardized format for reporting errors (RFC 7807) |
-| **Logging Integration** | Recording errors for debugging while keeping user messages clean |
-| **Graceful Degradation** | Continuing to function partially when errors occur |
+| :--- | :--- |
+| **Problem Details (RFC 7807)** | Standardized machine-readable format for specifying HTTP API errors. |
+| **Centralized Handling** | Catching and transforming unhandled exceptions in a unified pipeline or handler. |
+| **Structured Logging** | Capturing log events with message templates and indexed parameters for searching. |
+| **Log Levels** | Categorizing message severity (Debug, Info, Warning, Error, Critical). |
 
-> **Practice**: Log the exception details internally and return a short error message to the caller.
+### 📚 Topic Resources & References
+<!-- Add topic learning resources / links here -->
+- [ ] 
+- [ ] 
 
 ---
 
-## Knowledge Topic: Issue Templates and Bug Reports
+## 2. Knowledge Focus: Issue Templates & High-Quality Bug Reports
 
 ### Learning Objectives
-
-- Write a bug report that can be reproduced
-- Include steps, expected behavior, and actual behavior
-- Add the relevant version and environment details
+- Create reproducible, actionable bug reports with deterministic steps.
+- Provide environment details, expected outcomes, and actual behaviors.
+- Use and configure issue templates to streamline community reporting.
 
 ### Key Concepts
 
 | Concept | Description |
-|---------|-------------|
-| **Reproduction Steps** | The smallest sequence that shows the problem |
-| **Expected Behavior** | What should happen |
-| **Actual Behavior** | What happened instead |
+| :--- | :--- |
+| **Reproduction Steps** | The minimal sequence of actions needed to reliably trigger the bug. |
+| **Sanitized Diagnostics** | Sharing logs, inputs, or traces without exposing confidential credentials. |
+| **Issue Templates** | Structured forms on GitHub guiding contributors to include all necessary details. |
 
-> **Practice**: Turn a small bug into a report that another developer can reproduce.
+### 📚 Workflow Resources & References
+<!-- Add workflow learning resources / links here -->
+- [ ] 
+- [ ] 
 
 ---
 
-## Preparation Notes & Code Snippets
+## 3. 🧩 Problem Solving Track (3 Problems)
+<!-- Add the 3 problem-solving challenges for this sprint here -->
+- [ ] **Problem 1:** 
+- [ ] **Problem 2:** 
+- [ ] **Problem 3:** 
 
-### Technical Notes:
+---
 
-
-
-### Knowledge Notes:
-
-
-
-### Code Snippets:
-
+## 4. 🛠️ Sprint Deliverable & Practice
+- [ ] Configure centralized error handling returning standardized error responses.
+- [ ] Add structured log messages for key execution paths and failure scenarios.
+- [ ] Draft a clear, reproducible bug report following best practices.
+- [ ] Solve and submit the 3 problem-solving challenges for this sprint.

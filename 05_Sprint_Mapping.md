@@ -1,56 +1,63 @@
-# Sprint 5: DTOs, Mapping, JSON, and Documentation
+# Sprint 5: DTOs, Serialization & Documentation
+
+**Timeline:** Month 3 · Sprint 5 (Weeks 9–10)
 
 ---
 
-## Technical Topic: DTOs, Mapping, and JSON
+## 1. Technical Topic: DTOs, Mapping & JSON
 
 ### Learning Objectives
-
-- Understand why APIs use DTOs
-- Map between a domain object and a response object
-- Read and write simple JSON
+- Decouple internal domain/database models from external API contracts.
+- Understand data transformation, mapping patterns, and safety considerations.
+- Handle JSON serialization and deserialization formats.
 
 ### Key Concepts
 
 | Concept | Description |
-|---------|-------------|
-| **DTO** | A type used to transfer only the data needed by a caller |
-| **Mapping** | Copying or transforming data between two types |
-| **JSON** | A common text format for API data |
+| :--- | :--- |
+| **DTO (Data Transfer Object)** | Objects specifically structured to carry data across API boundaries without business logic. |
+| **Object Mapping** | Transforming data between domain models and request/response representations. |
+| **Serialization** | Converting in-memory objects into transmission formats like JSON. |
+| **Contract Stability** | Ensuring API shapes remain stable even when internal database structures change. |
 
-> **Practice**: Add one DTO and test its JSON output.
+### 📚 Topic Resources & References
+<!-- Add topic learning resources / links here -->
+- [ ] 
+- [ ] 
 
 ---
 
-## Knowledge Topic: README and Basic Documentation
+## 2. Knowledge Focus: README & Project Documentation
 
 ### Learning Objectives
-
-- Explain what the project does
-- Document setup and one common usage
-- Keep documentation aligned with the code
+- Craft an informative, welcoming README for open source consumers and contributors.
+- Document prerequisites, installation instructions, and basic usage examples.
+- Keep documentation up-to-date alongside code modifications.
 
 ### Key Concepts
 
 | Concept | Description |
-|---------|-------------|
-| **README Structure** | Essential sections: Overview, Installation, Usage, Contributing |
-| **Contributing Guidelines** | Clear instructions for how others can help |
-| **Documentation Updates** | Keeping docs in sync with code changes |
+| :--- | :--- |
+| **Quickstart Guide** | Minimal steps required for a developer to run the project locally. |
+| **Usage Examples** | Clear samples showing how users interact with the project's primary features. |
+| **Prerequisites** | Clear specification of required runtimes, tools, and dependencies. |
 
-> **Practice**: Update one README section after making a code change.
+### 📚 Workflow Resources & References
+<!-- Add workflow learning resources / links here -->
+- [ ] 
+- [ ] 
 
 ---
 
-## Preparation Notes & Code Snippets
+## 3. 🧩 Problem Solving Track (3 Problems)
+<!-- Add the 3 problem-solving challenges for this sprint here -->
+- [ ] **Problem 1:** 
+- [ ] **Problem 2:** 
+- [ ] **Problem 3:** 
 
-### Technical Notes:
+---
 
-
-
-### Knowledge Notes:
-
-
-
-### Code Snippets:
-
+## 4. 🛠️ Sprint Deliverable & Practice
+- [ ] Create distinct DTOs for a model and define mapping logic between them.
+- [ ] Review or author a project README ensuring quickstart and setup instructions are clear.
+- [ ] Solve and submit the 3 problem-solving challenges for this sprint.

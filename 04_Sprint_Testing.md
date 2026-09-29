@@ -1,58 +1,63 @@
 # Sprint 4: Unit Testing & Code Review Culture
 
+**Timeline:** Month 2 · Sprint 4 (Weeks 7–8)
+
 ---
 
-## Technical Topic: Unit Testing Basics with xUnit
+## 1. Technical Topic: Unit Testing with xUnit
 
 ### Learning Objectives
-
-- Master xUnit framework fundamentals
-- Write effective unit tests for open source projects
-- Understand test organization and naming conventions
+- Write automated tests using xUnit principles.
+- Structure tests clearly using the Arrange-Act-Assert (AAA) pattern.
+- Isolate units under test and verify expected outcomes against edge cases.
 
 ### Key Concepts
 
 | Concept | Description |
-|---------|-------------|
-| **Facts** | Tests that run once with no parameters |
-| **Theories** | Parameterized tests that run multiple times with different data |
-| **Test Fixtures** | Shared setup and teardown code for tests |
-| **Class Fixtures** | Shared resources across all tests in a class |
-| **Assertions** | Statements that verify expected vs. actual results |
-| **Mocking** | Creating fake objects to isolate the code under test |
+| :--- | :--- |
+| **Facts** | Tests that check invariant conditions with fixed parameters. |
+| **Theories** | Parameterized tests running multiple times across different test data. |
+| **AAA Pattern** | Arrange (setup), Act (execution), Assert (verification). |
+| **Test Isolation & Mocks** | Simulating external dependencies to test code in isolation. |
 
-> **Practice**: Write one test with fixed input and expected output. Keep the test independent of a database or network.
+### 📚 Topic Resources & References
+<!-- Add topic learning resources / links here -->
+- [ ] 
+- [ ] 
 
 ---
 
-## Knowledge Topic: Pull Requests and Code Review
+## 2. Knowledge Focus: Pull Requests & Code Review Culture
 
 ### Learning Objectives
-
-- Write a pull request with a clear summary
-- Connect the change to an issue
-- Respond to review comments with useful updates
+- Author clear, focused pull requests linked to corresponding issues.
+- Understand the expectations and etiquette of open source code reviews.
+- Respond constructively to reviewer feedback and maintainers' comments.
 
 ### Key Concepts
 
 | Concept | Description |
-|---------|-------------|
-| **Actionable Comments** | Review feedback that suggests specific improvements |
-| **Change Scope** | Keeping a pull request focused on one task |
+| :--- | :--- |
+| **PR Description** | Context explaining why the change was made and what was affected. |
+| **Issue Linking** | Connecting a PR to an issue so it automatically tracks progress. |
+| **Constructive Feedback** | Review comments aimed at improving code quality, consistency, and safety. |
 
-> **Practice**: Open a small pull request that includes the change, its test, and a short description.
+### 📚 Workflow Resources & References
+<!-- Add workflow learning resources / links here -->
+- [ ] 
+- [ ] 
 
 ---
 
-## Preparation Notes & Code Snippets
+## 3. 🧩 Problem Solving Track (3 Problems)
+<!-- Add the 3 problem-solving challenges for this sprint here -->
+- [ ] **Problem 1:** 
+- [ ] **Problem 2:** 
+- [ ] **Problem 3:** 
 
-### Technical Notes:
+---
 
-
-
-### Knowledge Notes:
-
-
-
-### Code Snippets:
-
+## 4. 🛠️ Sprint Deliverable & Practice
+- [ ] Write unit tests verifying both happy path and failure scenarios for a component.
+- [ ] Draft a clear pull request description outlining changes and testing steps.
+- [ ] Solve and submit the 3 problem-solving challenges for this sprint.

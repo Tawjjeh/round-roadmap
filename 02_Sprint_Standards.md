@@ -1,59 +1,63 @@
-# Sprint 2: Code Standards & Issue Triage
+# Sprint 2: Code Standards, Linters & Issue Triage
+
+**Timeline:** Month 1 · Sprint 2 (Weeks 3–4)
 
 ---
 
-## Technical Topic: Code Formatting, EditorConfig, and Roslyn Analyzers
+## 1. Technical Topic: Code Formatting & Static Analysis
 
 ### Learning Objectives
-
-- Master consistent code formatting across teams
-- Configure EditorConfig for project-wide style enforcement
-- Implement Roslyn analyzers for real-time code quality
+- Enforce consistent code style and formatting across team members.
+- Configure `.editorconfig` for cross-editor style enforcement.
+- Understand static code analysis, compiler warnings, and analyzer rules.
 
 ### Key Concepts
 
 | Concept | Description |
-|---------|-------------|
-| **EditorConfig** | A standardized configuration file that defines code style preferences across editors |
-| **Roslyn Analyzers** | Compiler-integrated tools that analyze code for style, quality, and potential issues |
-| **StyleCop** | A static code analyzer for C# that enforces coding standards |
-| **SonarLint** | An IDE extension that provides real-time code quality feedback |
-| **Warning Suppression** | Appropriately silencing warnings that do not apply to specific cases |
+| :--- | :--- |
+| **.editorconfig** | A standardized file setting conventions (indentation, charset, newlines) across editors. |
+| **Static Analyzers** | Tools that inspect source code for style, quality, performance, and bug risks before runtime. |
+| **Roslyn Analyzers** | Compiler-integrated code analysis tools for .NET. |
+| **Automated Formatting** | CLI and IDE tools that automatically apply formatting rules to the codebase. |
 
-> **Practice**: Add an EditorConfig file, enable one analyzer, and fix the warnings it reports.
+### 📚 Topic Resources & References
+<!-- Add topic learning resources / links here -->
+- [ ] 
+- [ ] 
 
 ---
 
-## Knowledge Topic: Issues, Labels, and Task Scope
+## 2. Knowledge Focus: Issues, Labels & Task Scoping
 
 ### Learning Objectives
-
-- Find issues that are suitable for a first contribution
-- Read labels and existing discussion
-- Split a large task into a small change
+- Navigate repository issue trackers and understand issue categories.
+- Identify issues tagged for beginners (`good first issue`, `help wanted`).
+- Define and protect task scope to prevent scope creep in pull requests.
 
 ### Key Concepts
 
 | Concept | Description |
-|---------|-------------|
-| **Good First Issue** | A label indicating an issue suitable for newcomers |
-| **Help Wanted** | A label indicating the maintainers want assistance |
-| **Task Scope** | The exact part of the problem that a change should address |
-| **Acceptance Criteria** | The conditions that show the issue is complete |
+| :--- | :--- |
+| **Issue Labels** | Tags used by maintainers to categorize priority, difficulty, and type of work. |
+| **Task Scope** | The exact boundary of what a single contribution should and should not address. |
+| **Acceptance Criteria** | Concrete criteria that define when a task is considered complete. |
 
-> **Practice**: Pick one issue, write down the files it may affect, and ask a focused question before coding.
+### 📚 Workflow Resources & References
+<!-- Add workflow learning resources / links here -->
+- [ ] 
+- [ ] 
 
 ---
 
-## Preparation Notes & Code Snippets
+## 3. 🧩 Problem Solving Track (3 Problems)
+<!-- Add the 3 problem-solving challenges for this sprint here -->
+- [ ] **Problem 1:** 
+- [ ] **Problem 2:** 
+- [ ] **Problem 3:** 
 
-### Technical Notes:
+---
 
-
-
-### Knowledge Notes:
-
-
-
-### Code Snippets:
-
+## 4. 🛠️ Sprint Deliverable & Practice
+- [ ] Inspect or add a `.editorconfig` file to a project and run a formatting check.
+- [ ] Find an active open source repository and identify a scoped `good first issue`.
+- [ ] Solve and submit the 3 problem-solving challenges for this sprint.

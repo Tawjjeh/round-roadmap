@@ -1,62 +1,63 @@
-# Sprint 3: Validation, Configuration, and Licenses
+# Sprint 3: Validation, Configuration & Licenses
+
+**Timeline:** Month 2 · Sprint 3 (Weeks 5–6)
 
 ---
 
-## Technical Topic: Input Validation and Configuration
+## 1. Technical Topic: Input Validation & Configuration
 
 ### Learning Objectives
-
-- Validate required and optional input
-- Keep configuration outside the code when possible
-- Return clear messages for invalid input
+- Validate incoming data and requests at system boundaries.
+- Adopt fail-fast principles to prevent processing corrupt or invalid inputs.
+- Separate configuration settings from source code.
 
 ### Key Concepts
 
 | Concept | Description |
-|---------|-------------|
-| **Rule-Based Validation** | Chain multiple validation rules together for complex scenarios |
-| **Custom Validators** | User-defined validators for domain-specific rules |
-| **Configuration** | Values such as URLs and feature flags read from settings or environment variables |
-| **Fail Fast** | Rejecting invalid input before starting the main operation |
+| :--- | :--- |
+| **Fail Fast** | Rejecting invalid inputs immediately before executing business logic. |
+| **Rule-Based Validation** | Defining declarative validation rules for required fields, ranges, and formats. |
+| **Configuration Management** | Storing environment-dependent values outside source code (settings, environment variables). |
+| **Clear Error Feedback** | Returning meaningful messages when validation criteria fail. |
 
-> **Practice**: Add validation for one request or command and test both valid and invalid input.
+### 📚 Topic Resources & References
+<!-- Add topic learning resources / links here -->
+- [ ] 
+- [ ] 
 
 ---
 
-## Knowledge Topic: Open Source Licenses
+## 2. Knowledge Focus: Open Source Licenses
 
 ### Learning Objectives
-
-- Identify the license used by a repository
-- Know the basic difference between permissive and copyleft licenses
-- Check license requirements before adding a dependency
+- Identify and understand the license governing an open source project.
+- Distinguish between permissive licenses and copyleft licenses.
+- Check dependency licenses before incorporating third-party libraries.
 
 ### Key Concepts
 
-| License | Key Characteristics |
-|---------|---------------------|
-| **MIT** | Simple, permissive, allows almost unrestricted use with minimal requirements |
-| **GPL** | Copyleft - derivative works must also be open source |
-| **Apache 2.0** | Permissive with explicit patent grants and attribution requirements |
-
 | Concept | Description |
-|---------|-------------|
-| **Dependency License** | The license attached to a library used by the project |
-| **Attribution** | Keeping the notices required by some licenses |
+| :--- | :--- |
+| **Permissive Licenses (MIT / Apache 2.0)** | Allow free use, modification, and redistribution with minimal requirements. |
+| **Copyleft Licenses (GPL)** | Require derivative works to remain open source under the same terms. |
+| **Attribution & Notice** | Retaining required copyright notices and license texts in distributed software. |
 
-> **Practice**: Find the repository license and check the license of one dependency.
+### 📚 Workflow Resources & References
+<!-- Add workflow learning resources / links here -->
+- [ ] 
+- [ ] 
 
 ---
 
-## Preparation Notes & Code Snippets
+## 3. 🧩 Problem Solving Track (3 Problems)
+<!-- Add the 3 problem-solving challenges for this sprint here -->
+- [ ] **Problem 1:** 
+- [ ] **Problem 2:** 
+- [ ] **Problem 3:** 
 
-### Technical Notes:
+---
 
-
-
-### Knowledge Notes:
-
-
-
-### Code Snippets:
-
+## 4. 🛠️ Sprint Deliverable & Practice
+- [ ] Define validation rules for a request model and test valid vs invalid cases.
+- [ ] Check and document the licenses of all dependencies in a sample project.
+- [ ] Solve and submit the 3 problem-solving challenges for this sprint.
