@@ -1,59 +1,72 @@
-# Open Source Contributor Roadmap
+# Round Roadmap
 
-A hands-on, structured **3-month (6-sprint)** roadmap for developers who want to become confident contributors to real-world open source software.
-
----
-
-## 🎯 About This Roadmap
-
-Each 2-week sprint is engineered to build practical, employable skills through four unified pillars:
-1. **Technical Foundation**: Core .NET and backend patterns (Git branching, analyzers, validation, xUnit testing, DTOs, and RFC 7807 error handling).
-2. **Open Source Workflows**: Navigating repositories, choosing tasks, licenses, writing pull requests, creating clear docs, and logging bug reports.
-3. **Problem Solving Track**: 3 curated algorithmic problems per sprint (18 problems total) focusing on core patterns (Arrays, Two Pointers, Sliding Window, Stacks, Linked Lists, Binary Search).
-4. **Vetted Curated Resources**: Direct references to official documentation, standards, and interactive sandboxes.
+A **3-month (6-sprint)** program to prepare developers for open source contributions.
 
 ---
 
-## 📅 Program Structure (3 Months · 6 Sprints)
+## Sprint Structure
 
-| Month | Sprint | Technical Focus | Open Source & Workflow | Problem Solving Track |
-| :---: | :---: | :--- | :--- | :--- |
-| **Month 1** | [Sprint 1](01_Sprint_Setup.md) | Git Branches & Repository Basics | Reading `CONTRIBUTING.md` & Finding Tasks | Arrays & Hash Sets (3 Problems) |
-| **Month 1** | [Sprint 2](02_Sprint_Standards.md) | Code Formatting & Roslyn Analyzers | Issues, Labels & Task Scoping | Two Pointers & In-Place (3 Problems) |
-| **Month 2** | [Sprint 3](03_Sprint_Validation.md) | Input Validation & Configuration | Open Source Licenses (MIT, Apache, GPL) | Sliding Window & Dictionaries (3 Problems) |
-| **Month 2** | [Sprint 4](04_Sprint_Testing.md) | Unit Testing with xUnit (AAA Pattern) | Pull Requests & Code Review Culture | Stacks & LIFO Processing (3 Problems) |
-| **Month 3** | [Sprint 5](05_Sprint_Mapping.md) | DTOs, Mapping & System.Text.Json | Crafting a Clear README & Docs | Linked Lists & Pointers (3 Problems) |
-| **Month 3** | [Sprint 6](06_Sprint_ErrorHandling.md) | Centralized Errors & Problem Details | Issue Templates & Writing Bug Reports | Binary Search & Edge Cases (3 Problems) |
+Each sprint (2 weeks) includes **4 sessions**:
+
+1. **Open Source Session**
+2. **Problem Solving Session** — 5 Problems
+3. **System Design Book**
+4. **Sprint Closing**
+
+### Fixed Tasks per Sprint
+
+| Task | Count |
+| :--- | :---: |
+| Problem Solving | 5 Problems |
+| Pull Requests | 5 PRs |
+| Issues | 1 Issue |
+| Technical Topic Note | 1 |
 
 ---
 
-## 📂 Repository Structure
+## Technical Topics
+
+| Sprint | Topic | Source |
+| :---: | :--- | :--- |
+| Sprint 1 | Git Branches & Repository Basics | |
+| Sprint 2 | CI/CD | |
+| Sprint 3 | Load Testing | |
+| Sprint 4 | Unit Testing with xUnit | |
+| Sprint 5 | Upload Docs | |
+| Sprint 6 | .NET Memory Management | |
+
+---
+
+## Program Schedule
+
+| Month | Sprint | Technical Topic | Open Source Focus |
+| :---: | :---: | :--- | :--- |
+| **Month 1** | [Sprint 1](01_Sprint_Setup.md) | Git Branches & Repository Basics | Reading `CONTRIBUTING.md` & Choosing a Task |
+| **Month 1** | [Sprint 2](02_Sprint_CICD.md) | CI/CD | Issues, Labels & Task Scoping |
+| **Month 2** | [Sprint 3](03_Sprint_LoadTesting.md) | Load Testing | Open Source Licenses |
+| **Month 2** | [Sprint 4](04_Sprint_Testing.md) | Unit Testing with xUnit | Pull Requests & Code Review Culture |
+| **Month 3** | [Sprint 5](05_Sprint_Docs.md) | Upload Docs | README & Project Documentation |
+| **Month 3** | [Sprint 6](06_Sprint_Memory.md) | .NET Memory Management | Issue Templates & Bug Reports |
+
+---
+
+## Repository Structure
 
 ```
 round-roadmap/
-├── LICENSE                  # MIT License
-├── README.md                # Project roadmap overview & table of contents
-├── 00_OVERVIEW.md           # Detailed 3-month schedule & learning path
-├── 01_Sprint_Setup.md       # Sprint 1: Git basics, workflows & array problems
-├── 02_Sprint_Standards.md   # Sprint 2: Linters, editorconfig & two pointers
-├── 03_Sprint_Validation.md  # Sprint 3: Validation, licensing & sliding window
-├── 04_Sprint_Testing.md     # Sprint 4: xUnit testing, PRs & stack problems
-├── 05_Sprint_Mapping.md     # Sprint 5: DTOs, documentation & linked lists
-└── 06_Sprint_ErrorHandling.md # Sprint 6: Error handling, bug reports & binary search
+├── LICENSE
+├── README.md
+├── 00_OVERVIEW.md
+├── 01_Sprint_Setup.md         # Sprint 1: Git Basics
+├── 02_Sprint_CICD.md          # Sprint 2: CI/CD
+├── 03_Sprint_LoadTesting.md   # Sprint 3: Load Testing
+├── 04_Sprint_Testing.md       # Sprint 4: Unit Testing
+├── 05_Sprint_Docs.md          # Sprint 5: Upload Docs
+└── 06_Sprint_Memory.md        # Sprint 6: .NET Memory Management
 ```
 
 ---
 
-## 🚀 How to Use This Roadmap
-
-1. **Go in order**: Each sprint builds upon the skills practiced in previous sprints.
-2. **Complete the technical exercises**: Follow the practical code patterns and try them out in a local test project.
-3. **Solve the 3 problems**: Work through the 3 algorithmic problems linked in each sprint on LeetCode.
-4. **Follow the recommended resources**: Read the linked official documentation to understand the "why" behind the patterns.
-5. **Tick off the checklist**: Finish every action item in the sprint deliverable checklist before moving to the next sprint.
-
----
-
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
